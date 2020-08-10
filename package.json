@@ -12,10 +12,6 @@
     "author": "JosemaPereira",
     "license": "MIT",
     "dependencies": {
-        "body-parser": "^1.19.0",
-        "cors": "^2.8.5",
-        "dotenv": "^8.2.0",
-        "express": "^4.17.1",
         "@babel/cli": "^7.10.1",
         "@babel/core": "^7.10.2",
         "@babel/node": "^7.10.1",
@@ -24,7 +20,14 @@
         "@babel/preset-env": "^7.10.2",
         "@babel/register": "^7.10.1",
         "babel-loader": "^8.1.0",
-        "babel-plugin-source-map-support": "^2.1.2"
+        "babel-plugin-source-map-support": "^2.1.2",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-graphql": "^0.11.0",
+        "graphql": "^15.3.0",
+        "graphql-tools": "^6.0.16"
     },
     "devDependencies": {
         "chai": "^4.2.0",
